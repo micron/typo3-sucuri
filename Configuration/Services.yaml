@@ -1,0 +1,9 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+  Kreativrudel\Sucuri\EventListener\Cache:
+    tags:
+      - name: event.listener
+        identifier: 'ext-sucuri/toolbar/cache-event-listener'
+

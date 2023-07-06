@@ -1,0 +1,4 @@
+# cat=apiAccess/apiKey; type=string; label=LLL:EXT:sucuri/Resources/Private/Language/locallang_be.xlf:api_key
+apiKey =
+# cat=apiAccess/apiSecret; type=string; label=LLL:EXT:sucuri/Resources/Private/Language/locallang_be.xlf:api_secret
+apiSecret =

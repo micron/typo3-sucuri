@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2014-06-02T11:47:18Z" product-name="sucuri">
+        <header/>
+        <body>
+            <trans-unit id="api_key" xml:space="preserve">
+                <source>API Key</source>
+            </trans-unit>
+            <trans-unit id="api_secret" xml:space="preserve">
+                <source>API Secret</source>
+            </trans-unit>
+            <trans-unit id="cache_title" xml:space="preserve">
+                <source>Clear Sucuri Cache</source>
+            </trans-unit>
+            <trans-unit id="cache_description" xml:space="preserve">
+                <source>Clears the Sucuri Firewall Webcache</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

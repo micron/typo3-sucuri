@@ -1,0 +1,42 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Enables to clear the cache on Sucuri Firewall enabled websites.",
+        "emConf": {
+            "category": "module",
+            "custom_category": "",
+            "dependsOn": "typo3 => 11.5.0-11.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": false,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "11.5.0-11.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "sucuri",
+        "name": "Sucuri",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "kreativrudel",
+                "email": "miron.ogrodowicz@kreativrudel.de",
+                "name": "Miron Ogrodowicz",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "Kreativrudel"
+    },
+    "wires": [],
+    "storagePath": "\/var\/www\/html\/packages\/",
+    "log": {
+        "last_modified": "2023-07-06 01:51",
+        "extension_builder_version": "v11.0.10",
+        "be_user": " (1)"
+    }
+}
