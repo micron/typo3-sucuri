@@ -2,8 +2,12 @@ services:
   _defaults:
     autowire: true
     autoconfigure: true
+  Kreativrudel\Sucuri\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Domain/Model/*'
   Kreativrudel\Sucuri\EventListener\Cache:
     tags:
       - name: event.listener
         identifier: 'ext-sucuri/toolbar/cache-event-listener'
+        event: TYPO3\CMS\Backend\Backend\Event\ModifyClearCacheActionsEvent
 
