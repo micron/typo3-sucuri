@@ -23,7 +23,7 @@ class Cache {
             'title' => 'LLL:EXT:sucuri/Resources/Private/Language/locallang_be.xlf:cache_title',
             'description' => 'LLL:EXT:sucuri/Resources/Private/Language/locallang_be.xlf:cache_description',
             'href' => $this->uriBuilder->buildUriFromRoute('sucuri_cache_clear'),
-            'iconIdentifier' => 'actions-barcode',
+            'iconIdentifier' => 'actions-bolt',
         ]);
         $event->addCacheActionIdentifier('sucuri');
     }
