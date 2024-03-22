@@ -42,7 +42,7 @@ class CacheController {
         }
         $responseDecoded = json_decode($response->getBody()->getContents(), true);
         if ($responseDecoded['action'] === 'none') {
-            $logger = GeneralUtility::makeInstance(LogManager::class)->getLogger(__CLASS__);
+            $logger = GeneralUtility::makeInstance(LogManager::class)->getLogger(self::class);
             $logger->error('Sucuri: ' . $responseDecoded['messages'][0]);
         }
 

@@ -6,14 +6,13 @@ use TYPO3\CMS\Backend\Routing\UriBuilder;
 
 class Cache {
 
-    /**
-     * @var UriBuilder
-     * @inject
-     */
-    protected UriBuilder $uriBuilder;
-    public function __construct(UriBuilder $uriBuilder)
+    public function __construct(
+        /**
+         * @inject
+         */
+        protected UriBuilder $uriBuilder
+    )
     {
-        $this->uriBuilder = $uriBuilder;
     }
     public function __invoke(ModifyClearCacheActionsEvent $event) : void
     {
